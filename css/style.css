@@ -1,0 +1,344 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*::after
+*::before
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+--TextColor:rgb(56, 48, 48);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    background-color: #F5F5F5;
+    
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--TextColor);
+}
+
+/* HELPERS */
+ .contenedor{
+    max-width: 1440px;
+    margin: 0 auto;
+
+} 
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: white;
+}
+.headerLogo{
+    max-height: 90px;
+    max-width: auto;
+    padding-left: 2rem;
+}
+
+.menu{
+    display: flex;
+    gap: 0.rem;
+
+}
+
+.menuLink{
+    padding-right: 1.5rem;
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* MAIN */
+h1 {
+    font-size: 3.75em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(56, 48, 48);
+}
+
+    main section{
+        padding: auto;
+
+    }
+   
+
+        main section p {
+            font-size: 1.4em;
+            line-height: 1.375em;
+            font-weight: 450;
+            margin: 15px;
+            padding: 10px;
+            overflow: auto;
+        }
+
+
+.imgTitle{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mainImgFluid{
+    display: flex;
+    width: 100%;
+}
+.mainTitle{
+    text-align: center;
+    font-size: 6rem;
+}
+
+.nosotrosMain{
+    display: flex;
+    flex-direction: column;
+}
+
+.nosotrosText{
+    font-size: 2rem;
+    line-height: 1.375em;
+    font-weight: 450;
+    margin: 15px;
+    padding: 0 200px;
+    overflow: auto;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.tituloNoticia{
+    font-size: 4rem;
+    padding-bottom: 30px;
+    text-align: start;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(56, 48, 48);
+}
+
+.contenedorMain{
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.textCenter{
+    text-align: center;
+}
+.Noticia1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Noticia2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Noticia3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgNoticia1{
+    width: 300px;
+    
+    
+    
+}
+.imgNoticia2{
+    width: 300px;
+    
+    
+    
+}.imgNoticia3{
+    width: 300px;
+    
+    
+    
+}
+.noticiaImg{
+    margin-left: 50px;
+    width: 300px;
+}
+
+.nosotrosTitle{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(56, 48, 48);
+}
+
+.titleNoticia{
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.textNoticia{
+    font-size: 1.3rem;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.contenedorForm {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.contenedorForm h2 {
+    margin-bottom: 50px;
+    font-size: 4rem;
+    
+}
+
+.contenedorForm a {
+    font-size: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.contenedorForm a i {
+    color: #D41212;
+    margin-right: 15px;
+}
+.contenedorForm form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.contenedorForm form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.contenedorForm .btnEnviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: #D41212;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.contenedorForm .btnEnviar:hover{
+    background: #D41212;
+}
+.textFontSize{
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+.titleText{
+    font-size: 3rem;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(56, 48, 48);
+}
+.contenedorNosotros{
+    display: flex;
+    flex-direction: column;
+}
+.contenedorEnlaces{
+    display: flex;
+    flex-direction: column;
+}
+.contenedorServicios{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorNoticias{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorServicios{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.iconoRedes{
+    height: 30px;
+    width: auto;
+    margin: 15px;
+}
+
+/* media */
+@media screen and (max-width:879px){
+    .contenedorMain{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorContacto{
+       margin-left: 50px;
+    }
+    
+    
+}
+
+@media screen and (max-width:575px) {
+    .contenedorMain{
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .contenedorContacto{
+        flex-direction: column;
+    }
+    .nosotrosText{
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width:480px){
+    .contenedorMain{
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .contenedorContacto{
+        flex-direction: column;
+    }
+    .nosotrosText{
+        padding: 0;
+    }
+ 
+      }
