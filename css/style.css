@@ -58,8 +58,7 @@ header{
 
 .menuLink{
     padding-right: 1.5rem;
-    font-size: 1.6rem;
-   
+    font-size: 1.6rem;;
     margin: 10px;
 }
 
@@ -101,9 +100,10 @@ h1 {
     font-size: 6rem;
 }
 
-.nosotrosMain{
-    display: flex;
-    flex-direction: column;
+.nosotrosSub {
+    font-size: 2.5rem;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 40px;
 }
 
 .nosotrosText{
