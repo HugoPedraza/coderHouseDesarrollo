@@ -42,10 +42,6 @@ a{
 /* HEADER */
 
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
     background-color: white;
 }
 .headerLogo{
@@ -63,7 +59,8 @@ header{
 .menuLink{
     padding-right: 1.5rem;
     font-size: 1.6rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    margin: 10px;
 }
 
 /* MAIN */
