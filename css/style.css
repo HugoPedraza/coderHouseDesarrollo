@@ -14,8 +14,12 @@
 --TextColor:rgb(56, 48, 48);
 --TextTitle: 3rem;
 --ColorRed:#D41212; 
+--FontFamilyTitle: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.textColorRed {
+    color: var(--ColorRed);
+}
 html{
     font-size: 62.5%;
 }
@@ -68,7 +72,7 @@ header{
 /* MAIN */
 h1 {
     font-size: 3.75em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:var(--FontFamilyTitle);
     color: var(--TextColor);
 }
 
@@ -126,7 +130,7 @@ h1 {
     text-align: start;
     margin-top: 50px;
     margin-left: 100px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--FontFamilyTitle);
     color: var(--TextColor);
 }
 
@@ -177,10 +181,10 @@ h1 {
     width: 300px;
 }
 
-.textTitle{
+.nosotrosTitle{
     font-size: var(--TextTitle);
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--FontFamilyTitle);
     color: var(--TextColor);
 }
 
@@ -263,9 +267,9 @@ h1 {
     margin-left: 15px;
 }
 .titleText{
-    font-size: 3rem;
+    font-size: var(--TextTitle);
     margin-left: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--FontFamilyTitle);
     color: var(--TextColor);
 }
 
