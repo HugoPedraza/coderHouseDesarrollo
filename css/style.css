@@ -12,6 +12,8 @@
 
 :root{
 --TextColor:rgb(56, 48, 48);
+--TextTitle: 3rem;
+--ColorRed:#D41212; 
 }
 
 html{
@@ -20,7 +22,8 @@ html{
 
 body{
     margin: 0;
-    background-color: #F5F5F5;
+    background-color: white;
+
     
 }
 
@@ -66,7 +69,7 @@ header{
 h1 {
     font-size: 3.75em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(56, 48, 48);
+    color: var(--TextColor);
 }
 
     main section{
@@ -124,7 +127,7 @@ h1 {
     margin-top: 50px;
     margin-left: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(56, 48, 48);
+    color: var(--TextColor);
 }
 
 .contenedorMain{
@@ -174,11 +177,11 @@ h1 {
     width: 300px;
 }
 
-.nosotrosTitle{
-    font-size: 3rem;
+.textTitle{
+    font-size: var(--TextTitle);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(56, 48, 48);
+    color: var(--TextColor);
 }
 
 .titleNoticia{
@@ -192,6 +195,9 @@ h1 {
     padding: 5px;
     margin-left: 30px;
     margin-right: 30px;
+}
+.colorRedTitle {
+    color:var(--ColorRed);
 }
 .contenedorForm {
     width: 100%;
@@ -219,7 +225,7 @@ h1 {
     font-weight: 700;
 }
 .contenedorForm a i {
-    color: #D41212;
+    color: var(--ColorRed);
     margin-right: 15px;
 }
 .contenedorForm form .campo, textarea{
@@ -242,14 +248,14 @@ h1 {
     font-size: 16px;
     border: none;
     outline: 0px;
-    background: #D41212;
+    background: var(--ColorRed);
     color: white;
     border-radius: 3px;
     cursor: pointer;
     transition: all 300ms ease;
 }
 .contenedorForm .btnEnviar:hover{
-    background: #D41212;
+    background: var(--ColorRed);
 }
 
 .textFontSize{
@@ -260,8 +266,9 @@ h1 {
     font-size: 3rem;
     margin-left: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(56, 48, 48);
+    color: var(--TextColor);
 }
+
 .contenedorNosotros{
     display: flex;
     flex-direction: column;
