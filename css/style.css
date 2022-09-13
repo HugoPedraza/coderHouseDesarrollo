@@ -105,6 +105,8 @@ h1 {
 .mainTitle{
     text-align: center;
     font-size: 6rem;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 .nosotrosSub {
@@ -131,7 +133,7 @@ h1 {
     margin-top: 50px;
     margin-left: 100px;
     font-family: var(--FontFamilyTitle);
-    color: var(--TextColor);
+    color: var(--ColorRed);
 }
 
 .contenedorMain{
