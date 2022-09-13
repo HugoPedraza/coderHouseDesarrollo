@@ -19,9 +19,15 @@
 
 .textColorRed {
     color: var(--ColorRed);
+
 }
+.backgroundRed {
+    background-color: var(--ColorRed);
+}
+
 html{
     font-size: 62.5%;
+    
 }
 
 body{
@@ -213,6 +219,7 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
     margin-top: 80px;
+    margin-bottom: 100px;
 }
 
 .contenedorForm h2 {
