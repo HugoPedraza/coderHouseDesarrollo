@@ -12,7 +12,7 @@
 
 :root{
 --TextColor:rgb(56, 48, 48);
---TextTitle: 3rem;
+--TextTitle: 2rem;
 --ColorRed:#D41212; 
 --FontFamilyTitle: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -23,6 +23,13 @@
 }
 .backgroundRed {
     background-color: var(--ColorRed);
+}
+
+.subTitle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    color: var(--TextColor);
+    margin-left: 40px;
 }
 
 html{
@@ -112,7 +119,7 @@ h1 {
     text-align: center;
     font-size: 6rem;
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .nosotrosSub {
@@ -139,7 +146,7 @@ h1 {
     margin-top: 50px;
     margin-left: 100px;
     font-family: var(--FontFamilyTitle);
-    color: var(--ColorRed);
+    color: var(--TextColor);
 }
 
 .contenedorMain{
@@ -152,6 +159,25 @@ h1 {
 .textCenter{
     text-align: center;
 }
+
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.contenedor3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+
 .Noticia1{
     display: flex;
     flex-direction: column;
@@ -289,10 +315,12 @@ h1 {
 .contenedorEnlaces{
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 .contenedorServicios{
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .contenedorNoticias{
