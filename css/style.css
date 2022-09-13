@@ -195,19 +195,13 @@ h1 {
 }
 .imgNoticia1{
     width: 300px;
-    
-    
-    
+  
 }
 .imgNoticia2{
-    width: 300px;
-    
-    
+    width: 300px;  
     
 }.imgNoticia3{
-    width: 300px;
-    
-    
+    width: 300px;   
     
 }
 .noticiaImg{
@@ -363,6 +357,7 @@ h1 {
         min-height: 140px;
         max-height: 150px;
     }
+    
 }
 
 @media screen and (max-width:575px) {
@@ -387,6 +382,9 @@ h1 {
         min-width: 150px;
         min-height: 140px;
         max-height: 150px;
+    }
+    .contenedor1, .contenedor2, .contenedor3 {
+        flex-direction: column;
     }
   
 }
@@ -418,5 +416,20 @@ h1 {
         min-height: 140px;
         max-height: 150px;
     }
- 
+    .contenedor1, .contenedor2, .contenedor3 {
+        flex-direction: column;
+    }
+    .img1 img{
+        width: 200px;
+      
+    }
+    .img2 img{
+        width: 200px;
+      
+    }
+    .img3 img{
+        width: 200px;
+      
+    }
+
       }
