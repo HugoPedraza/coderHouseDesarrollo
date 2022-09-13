@@ -348,7 +348,21 @@ h1 {
        margin-left: 50px;
     }
     
-    
+    .nosotrosText{
+        padding: 0;
+        
+    }
+
+    .contenedorForm {
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorForm form textarea{
+        max-width: 530px;
+        min-width: 150px;
+        min-height: 140px;
+        max-height: 150px;
+    }
 }
 
 @media screen and (max-width:575px) {
@@ -364,10 +378,17 @@ h1 {
     .contenedorContacto{
         flex-direction: column;
     }
-    .nosotrosText{
-        padding: 0;
+    .contenedorForm {
+        display: flex;
+        flex-direction: column;
     }
-    
+    .contenedorForm form textarea{
+        max-width: 530px;
+        min-width: 150px;
+        min-height: 140px;
+        max-height: 150px;
+    }
+  
 }
 
 @media screen and (max-width:480px){
@@ -385,6 +406,17 @@ h1 {
     }
     .nosotrosText{
         padding: 0;
+    }
+    .contenedorForm {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contenedorForm form textarea{
+        max-width: 530px;
+        min-width: 150px;
+        min-height: 140px;
+        max-height: 150px;
     }
  
       }
