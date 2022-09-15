@@ -357,7 +357,10 @@ h1 {
         max-height: 150px;
     }
     .mainTitle {
-        font-size: 5rem;
+        font-size: 4.5rem;
+    }
+    .subTitle{
+        font-size: 2.5rem;
     }
     
 }
@@ -389,7 +392,10 @@ h1 {
         flex-direction: column;
     }
     .mainTitle {
-        font-size: 4rem;
+        font-size: 3.5rem;
+    }
+    .subTitle{
+        font-size: 2rem;
     }
   
 }
@@ -437,7 +443,10 @@ h1 {
       
     }
     .mainTitle {
-        font-size: 3.5rem;
+        font-size: 3rem;
+    }
+    .subTitle{
+        font-size: 1.5rem;
     }
 
       }

@@ -153,7 +153,10 @@ main section p {
     max-height: 150px;
   }
   .mainTitle {
-    font-size: 5rem;
+    font-size: 4.5rem;
+  }
+  .subTitle {
+    font-size: 2.5rem;
   }
 }
 @media screen and (max-width: 575px) {
@@ -183,7 +186,10 @@ main section p {
     flex-direction: column;
   }
   .mainTitle {
-    font-size: 4rem;
+    font-size: 3.5rem;
+  }
+  .subTitle {
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -225,6 +231,9 @@ main section p {
     width: 200px;
   }
   .mainTitle {
-    font-size: 3.5rem;
+    font-size: 3rem;
+  }
+  .subTitle {
+    font-size: 1.5rem;
   }
 }/*# sourceMappingURL=main.css.map */
