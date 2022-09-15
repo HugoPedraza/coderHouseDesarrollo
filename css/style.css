@@ -410,15 +410,30 @@ h1 {
         flex-direction: column; 
         align-items: center;
     }
+    .imgNoticia1, .imgNoticia2, .imgNoticia3 {
+        width: 200px;
+    }
+    
+    .titleText  {
+        font-size: 1.5rem;
+    }
     .contenedorContacto{
         flex-direction: column;
     }
     .nosotrosText{
+        font-size: 1.5rem;
         padding: 0;
     }
     .contenedorForm {
         display: flex;
         flex-direction: column;
+        
+    }
+    .contenedorForm h2 {
+        font-size: 2.5rem;
+    }
+    .contenedorForm a {
+        font-size: 1.5rem;
         
     }
     .contenedorForm form textarea{
@@ -429,6 +444,11 @@ h1 {
     }
     .contenedor1, .contenedor2, .contenedor3 {
         flex-direction: column;
+    }
+    .contenedorServicios {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
     }
     .img1 img{
         width: 200px;
