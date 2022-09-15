@@ -1,0 +1,110 @@
+/* media */
+@media screen and (max-width:879px){
+    .contenedorMain{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorContacto{
+       margin-left: 50px;
+    }
+    
+    .nosotrosText{
+        padding: 0;
+        
+    }
+
+    .contenedorForm {
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorForm form textarea{
+        max-width: 530px;
+        min-width: 150px;
+        min-height: 140px;
+        max-height: 150px;
+    }
+    .mainTitle {
+        font-size: 5rem;
+    }
+    
+}
+
+@media screen and (max-width:575px) {
+    .contenedorMain{
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .contenedorContacto{
+        flex-direction: column;
+    }
+    .contenedorForm {
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorForm form textarea{
+        max-width: 530px;
+        min-width: 150px;
+        min-height: 140px;
+        max-height: 150px;
+    }
+    .contenedor1, .contenedor2, .contenedor3 {
+        flex-direction: column;
+    }
+    .mainTitle {
+        font-size: 4rem;
+    }
+  
+}
+
+@media screen and (max-width:480px){
+    .contenedorMain{
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .contenedorContacto{
+        flex-direction: column;
+    }
+    .nosotrosText{
+        padding: 0;
+    }
+    .contenedorForm {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contenedorForm form textarea{
+        max-width: 530px;
+        min-width: 150px;
+        min-height: 140px;
+        max-height: 150px;
+    }
+    .contenedor1, .contenedor2, .contenedor3 {
+        flex-direction: column;
+    }
+    .img1 img{
+        width: 200px;
+      
+    }
+    .img2 img{
+        width: 200px;
+      
+    }
+    .img3 img{
+        width: 200px;
+      
+    }
+    .mainTitle {
+        font-size: 3.5rem;
+    }
+
+      }

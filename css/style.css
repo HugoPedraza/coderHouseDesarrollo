@@ -22,13 +22,13 @@
 
 }
 .backgroundRed {
-    background-color: var(--ColorRed);
+    background-color:var(--ColorRed);
 }
 
 .subTitle {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--FontFamilyTitle);
     font-size: 3rem;
-    color: var(--TextColor);
+    color:var(--TextColor);
     margin-left: 40px;
 }
 
@@ -210,7 +210,7 @@ h1 {
 }
 
 .nosotrosTitle{
-    font-size: var(--TextTitle);
+    font-size: 2rem;
     text-align: center;
     font-family: var(--FontFamilyTitle);
     color: var(--TextColor);
@@ -296,9 +296,8 @@ h1 {
     margin-left: 15px;
 }
 .titleText{
-    font-size: var(--TextTitle);
-    margin-left: 20px;
-    font-family: var(--FontFamilyTitle);
+    font-size: 2rem;
+    margin-left: 10px;
     color: var(--TextColor);
 }
 
@@ -357,6 +356,9 @@ h1 {
         min-height: 140px;
         max-height: 150px;
     }
+    .mainTitle {
+        font-size: 5rem;
+    }
     
 }
 
@@ -385,6 +387,9 @@ h1 {
     }
     .contenedor1, .contenedor2, .contenedor3 {
         flex-direction: column;
+    }
+    .mainTitle {
+        font-size: 4rem;
     }
   
 }
@@ -430,6 +435,9 @@ h1 {
     .img3 img{
         width: 200px;
       
+    }
+    .mainTitle {
+        font-size: 3.5rem;
     }
 
       }

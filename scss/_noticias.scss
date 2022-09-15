@@ -1,0 +1,29 @@
+.contenedorNoticias{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.contenedor3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.noticiaImg{
+    margin-left: 50px;
+    width: 300px;
+}
+.titleText{
+    font-size: 2rem;
+    margin-left: 10px;
+    color: var(--TextColor);
+}
