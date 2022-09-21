@@ -1,0 +1,59 @@
+.contenedorForm {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.contenedorForm h2 {
+    margin-bottom: 50px;
+    font-size: 4rem;
+    
+}
+
+.contenedorForm a {
+    font-size: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.contenedorForm a i {
+    color: var(--ColorRed);
+    margin-right: 15px;
+}
+.contenedorForm form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.contenedorForm form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.contenedorForm .btnEnviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: var(--ColorRed);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.contenedorForm .btnEnviar:hover{
+    background: var(--ColorRed);
+}
