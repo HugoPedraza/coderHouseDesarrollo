@@ -84,11 +84,15 @@ main section p {
   background-color: var(--ColorRed);
 }
 
-.mainTitle {
+.mainTitle, .mainTitleRed {
   text-align: center;
   font-size: 6rem;
   margin-top: 40px;
   margin-bottom: 50px;
+}
+
+.mainTitleRed {
+  color: var(--ColorRed);
 }
 
 .titleText {
@@ -106,7 +110,7 @@ main section p {
   font-size: 2rem;
   text-align: center;
   font-family: var(--FontFamilyTitle);
-  color: var(--TextColor);
+  color: rgb(56, 48, 48);
 }
 
 .nosotrosText {
@@ -342,7 +346,7 @@ main section p {
     min-height: 140px;
     max-height: 150px;
   }
-  .mainTitle {
+  .mainTitle, .mainTitleRed {
     font-size: 4.5rem;
   }
   .subTitle {
@@ -375,7 +379,7 @@ main section p {
   .contenedor1, .contenedor2, .contenedor3 {
     flex-direction: column;
   }
-  .mainTitle {
+  .mainTitle, .mainTitleRed {
     font-size: 3.5rem;
   }
   .subTitle {
@@ -438,7 +442,7 @@ main section p {
   .img3 img {
     width: 200px;
   }
-  .mainTitle {
+  .mainTitle, .mainTitleRed {
     font-size: 3rem;
   }
   .subTitle {

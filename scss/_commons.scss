@@ -88,9 +88,15 @@ h1 {
     margin-top: 40px;
     margin-bottom: 50px;
 }
+.mainTitleRed{
+    @extend .mainTitle;
+    color: var(--ColorRed);  
+}
+
 .titleText{
-    font-size: 2rem;
-    margin-left: 10px;
+ 
+   font-size: 2rem;
+    margin-left: 10px; 
     color: var(--TextColor);
 }
 .textFontSize{

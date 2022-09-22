@@ -2,7 +2,7 @@
     font-size: 2rem;
     text-align: center;
     font-family: var(--FontFamilyTitle);
-    color: var(--TextColor);
+    color: map-get($map: $paleta , $key:  'gris'  )
 }
 .nosotrosText{
     font-size: 2rem;
@@ -42,27 +42,22 @@
     margin-right: 30px;
 }
 .Noticia1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex(column, center)
+   
 }
 .imgNoticia1{
     width: 300px;
   
 }
 .Noticia2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex(column, center)
 }
 .imgNoticia2{
     width: 300px;  
     
 }
 .Noticia3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex(column, center)
 }
 .imgNoticia3{
     width: 300px;   
