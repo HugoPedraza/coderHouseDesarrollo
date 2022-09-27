@@ -1,22 +1,13 @@
-.contenedorNoticias{
-    display: flex;
-    flex-direction: column;
-}
+
 
 .contenedor1 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+    @include flex2(center, 50px)
 }
 .contenedor2 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+    @include flex2(center, 50px)
 }
 .contenedor3 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+    @include flex2(center, 50px)
 }
 .noticiaImg{
     margin-left: 50px;
