@@ -590,6 +590,10 @@ main section p {
   .img3 img {
     width: 300px;
   }
+  .noticiaImg {
+    margin-left: 25px;
+    width: 300px;
+  }
   .mainTitle, .mainTitleRed {
     font-size: 3rem;
   }
@@ -629,5 +633,14 @@ main section p {
     font-weight: 450;
     padding: 10px;
     overflow: auto;
+  }
+  .img1 img {
+    width: 180px;
+  }
+  .img2 img {
+    width: 180px;
+  }
+  .img3 img {
+    width: 180px;
   }
 }/*# sourceMappingURL=main.css.map */
