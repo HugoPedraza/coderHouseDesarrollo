@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
 *::after
 *::before
 *{
@@ -6,6 +9,12 @@
     padding: 0;
     margin: 0;
 }
+:root{
+    --TextColor:rgb(56, 48, 48);
+    --TextTitle: 2rem;
+    --ColorRed:#D41212; 
+    --FontFamilyTitle: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
 
 html{
     font-size: 62.5%;
@@ -106,4 +115,12 @@ h1 {
 .TextFooter{
     font-size: 1.5rem;
     color: white;
+}
+.contenedorServicios{
+    @include grid(repeat(2, 1fr))
+}
+.contenedorEnlaces{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
 }
