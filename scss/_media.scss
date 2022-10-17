@@ -1,4 +1,75 @@
 /* media */
+@media screen and (max-width:1150px){
+    body{
+        position: relative;
+        padding-bottom: 5em;
+        min-height: 100vh;
+    }
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .tituloNoticia {
+        font-size: 4rem;
+        padding-bottom: 30px;
+        text-align: center;
+        font-family: var(--FontFamilyTitle);
+        color: var(--ColorRed);
+    }
+    .textNoticia {
+        font-size: 1.2rem;
+        padding: 5px;
+        margin-left: 30px;
+    }
+    
+    main section p {
+        font-size: 1em;
+        line-height: 1.375em;
+        font-weight: 450;
+        padding: 10px;
+        overflow: auto;
+    }
+    .nosotrosText {
+        font-size: 1.8rem;
+        padding: 25px;
+    }
+    .imgNoticia1 {
+        width: 280px;
+        margin-bottom: 8px;
+    }
+    .imgNoticia2 {
+        width: 280px;
+        margin-bottom: 8px;
+    }
+    .imgNoticia3 {
+        width: 280px;
+        margin-bottom: 8px;
+    }
+    .contenedorForm h2 {
+        margin-bottom: 50px;
+        font-size: 4rem;
+        margin-left: 30px;
+    }
+    .contenedorForm a {
+        width: 80%;
+        margin-left: 30px;
+        font-size: 1.5rem;
+        
+    }
+    .contenedorForm form textarea {
+        margin-right: 15px;
+    }
+    .contenedorForm form .campo, textarea {
+        width: 90%;
+    }
+    .titleText {
+        font-size: 2rem;
+        margin-left: 20px;
+        color: var(--ColorRed);
+    }
+
+}
 @media screen and (max-width:879px){
     .contenedorMain{
         display: flex;
@@ -9,7 +80,7 @@
     }
     
     .nosotrosText{
-        padding: 0;
+        padding: 25px;
         
     }
 
@@ -18,7 +89,7 @@
         flex-direction: column;
     }
     .contenedorForm form textarea{
-        max-width: 530px;
+        max-width: 650px;
         min-width: 150px;
         min-height: 140px;
         max-height: 150px;
@@ -29,10 +100,49 @@
     .subTitle{
         font-size: 2.5rem;
     }
+    .contenedorForm h2 {
+        margin-bottom: 50px;
+        font-size: 4rem;
+        margin-left: 25px;
+    }
+    .contenedorForm a {
+        width: 80%;
+        margin-left: 25px;
+       
+    }
+    .contenedorForm form .campo, textarea {
+        width: 80%;
+        margin-left: 25px;
+       
+    }
+    .contenedorForm .btnEnviar {
+        margin-left: 25px;
+        display: block;
+    }
+    .titleText {
+        font-size: 1.8rem;
+        margin-left: 20px;
+        color: var(--ColorRed);
+    }
+    .imgNoticia1 {
+        width: 380px;
+        margin-bottom: 8px;
+    }
+    .imgNoticia2 {
+        width: 380px;
+        margin-bottom: 8px;
+    }
+    .imgNoticia3 {
+        width: 380px;
+        margin-bottom: 8px;
+    }
     
 }
 
 @media screen and (max-width:575px) {
+
+  
+   
     .contenedorMain{
         display: flex;
         flex-direction: column;
@@ -64,10 +174,50 @@
     .subTitle{
         font-size: 2rem;
     }
+    .contenedorForm h2 {
+        margin-bottom: 50px;
+        font-size: 2.5rem;
+        margin-left: 20px;
+    }
+    .contenedorForm form .campo, textarea {
+        width: 85%;
+        margin-left: 20px;
+        
+    }
+    .contenedorForm .btnEnviar {
+        margin-left: 20px;
+    }
+    .contenedorForm a {
+        width: 85%;
+        margin-left: 20px;
+        
+    }
+    .titleText {
+        font-size: 1.5rem;
+        margin-left: 10px;
+        color: var(--ColorRed);
+        margin-left: 20px;
+    }
+    main section p {
+        font-size: 1.4em;
+        line-height: 1em;
+        font-weight: 450;
+        padding: 10px;
+        overflow: auto;
+    }
   
 }
 
 @media screen and (max-width:480px){
+    body{
+        padding-bottom: 10em;
+        min-height: 100vh;
+    }
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
     .contenedorMain{
         display: flex;
         flex-direction: column;
@@ -77,8 +227,15 @@
         flex-direction: column; 
         align-items: center;
     }
+    .tituloNoticia {
+        font-size: 3rem;
+        padding-bottom: 30px;
+        margin-top: 50px;
+        font-family: var(--FontFamilyTitle);
+        color: var(--ColorRed);
+    }
     .imgNoticia1, .imgNoticia2, .imgNoticia3 {
-        width: 200px;
+        width: 280px;
     }
     
     .titleText  {
@@ -98,10 +255,13 @@
     }
     .contenedorForm h2 {
         font-size: 2.5rem;
+        margin-left: 15px;
     }
     .contenedorForm a {
         font-size: 1.5rem;
-        
+        margin-left: 15px;
+        width: 90%
+       
     }
     .contenedorForm form textarea{
         max-width: 530px;
@@ -118,15 +278,15 @@
         margin-bottom: 50px;
     }
     .img1 img{
-        width: 200px;
+        width: 300px;
       
     }
     .img2 img{
-        width: 200px;
+        width: 300px;
       
     }
     .img3 img{
-        width: 200px;
+        width: 300px;
       
     }
     .mainTitle {
@@ -135,5 +295,40 @@
     .subTitle{
         font-size: 1.5rem;
     }
+    .contenedorForm form .campo, textarea {
+        width: 90%;
+        margin-left: 15px;
+       
+    }
+    .contenedorForm .btnEnviar {
+        margin-left: 15px;
+    }
+    main section p {
+        font-size: 1.2rem;
+        line-height: 1.375em;
+        font-weight: 450;
+        padding: 10px;
+        overflow: auto;
+    }
 
+      }
+@media screen and (max-width:300px){
+    .imgNoticia1, .imgNoticia2, .imgNoticia3 {
+        width: 220px;
+    }
+    .nosotrosText {
+        font-size: 1.2rem;
+        padding: 25px;
+    }
+    .titleNoticia {
+        font-size: 1.1rem;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    main section p {
+        font-size: 1.2rem;
+        font-weight: 450;
+        padding: 10px;
+        overflow: auto;
+    }
       }

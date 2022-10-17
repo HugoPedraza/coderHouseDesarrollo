@@ -14,9 +14,7 @@ html{
 
 body{
     margin: 0;
-    background-color: map-get($map: $paleta , $key:  'blanco'  );
-
-    
+    background-color: map-get($map: $paleta , $key:  'blanco'  ); 
 }
 
 ul{
@@ -67,7 +65,7 @@ h1 {
    
 
         main section p {
-            font-size: 1.4em;
+            font-size: 1em;
             line-height: 1.375em;
             font-weight: 450;
             margin: 15px;
@@ -85,7 +83,7 @@ h1 {
 
  .mainTitle{
     text-align: center;
-    font-size: 6rem;
+    font-size: 4.2rem;
     margin-top: 40px;
     margin-bottom: 50px;
 }
@@ -96,11 +94,16 @@ h1 {
 
 .titleText{
  
-   font-size: 2rem;
+    font-size: 2rem;
     margin-left: 10px; 
     color: var(--TextColor);
 }
 .textFontSize{
     font-size: 1.5em;
     margin-left: 15px;
+}
+
+.TextFooter{
+    font-size: 1.5rem;
+    color: white;
 }
