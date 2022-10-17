@@ -1,0 +1,27 @@
+
+
+@mixin flex($direction,$items){
+    display: flex;
+    flex-direction:$direction;
+    align-items: $items;
+}
+
+
+@mixin flex2($justifi, $margin){
+    display: flex;
+    justify-content: $justifi;
+    margin-bottom: $margin;
+}
+
+@mixin grid($template){
+    display: grid;
+    grid-template-columns: $template;
+}
+
+
+$paleta:(
+    'rojo' : #D41212,
+    'gris' : rgb(56, 48, 48),
+    'blanco' : rgb(255, 255, 255),
+)
+
